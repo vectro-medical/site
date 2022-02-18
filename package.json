@@ -1,12 +1,18 @@
 {
-  "name": "website",
+  "name": "vectro-medical",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --configuration=production --base-href=https://vectro-medical.github.io/site/",
+    "publish": "ngh --dir dist/website",
+    "build:publish": "npm run build && npm run publish",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "format:fix": "pretty-quick --staged",
+    "precommit": "run-s format:fix lint",
+    "format:check": "prettier --config ./.prettierrc --list-different \"src/{app,environments,assets}/**/*{.ts,.js,.json,.css,.scss,.html}\"",
+    "prettier": "prettier --config ./.prettierrc --write \"src/**/*.{ts,scss,json,html}\""
   },
   "private": true,
   "dependencies": {
@@ -18,6 +24,9 @@
     "@angular/platform-browser": "~13.2.0",
     "@angular/platform-browser-dynamic": "~13.2.0",
     "@angular/router": "~13.2.0",
+    "lodash-es": "^4.17.21",
+    "primeicons": "^5.0.0",
+    "primeng": "^13.2.0",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
@@ -27,13 +36,18 @@
     "@angular/cli": "~13.2.4",
     "@angular/compiler-cli": "~13.2.0",
     "@types/jasmine": "~3.10.0",
+    "@types/lodash-es": "^4.17.6",
     "@types/node": "^12.11.1",
+    "angular-cli-ghpages": "^1.0.0",
+    "husky": "^7.0.4",
     "jasmine-core": "~4.0.0",
     "karma": "~6.3.0",
     "karma-chrome-launcher": "~3.1.0",
     "karma-coverage": "~2.1.0",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
+    "prettier": "^2.5.1",
+    "pretty-quick": "^3.1.3",
     "typescript": "~4.5.2"
   }
 }
