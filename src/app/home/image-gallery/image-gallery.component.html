@@ -1,6 +1,6 @@
 <div class="gallery-container d-flex justify-content-center">
   <p-galleria [value]="images" [responsiveOptions]="responsiveOptions" [containerStyle]="{'max-width': '640px'}"
-    [numVisible]="5" [circular]="true" [showItemNavigators]="true">
+    [numVisible]="3" [circular]="true" [showItemNavigators]="true" [autoPlay]="true">
     <ng-template pTemplate="item" let-item>
       <img [src]="item.previewImageSrc" style="width: 100%; display: block;" />
     </ng-template>
