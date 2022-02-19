@@ -1,0 +1,18 @@
+// @import '~bootstrap/scss/bootstrap.scss';
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+
+:host {
+  display: block;
+}
+
+.box-shadow {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
+
+@include media-breakpoint-up(md) {
+  .company-logo {
+    margin-right: auto;
+  }
+}
