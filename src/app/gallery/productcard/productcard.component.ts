@@ -4,13 +4,10 @@ import { ProductDetails } from './product-details';
 @Component({
   selector: 'app-productcard',
   templateUrl: './productcard.component.html',
-  styleUrls: ['./productcard.component.scss']
+  styleUrls: ['./productcard.component.scss'],
 })
 export class ProductcardComponent implements OnInit {
-
-  constructor() { }
+  constructor() {}
   @Input() productDetail: ProductDetails = new ProductDetails();
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

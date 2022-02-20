@@ -1,6 +1,27 @@
-<div class="contact-us-page d-flex justify-content-center">
-  <a class="google-map-container"
-    href="https://www.google.co.in/maps/place/Kartik+Niwas/@19.186354,77.3069246,17z/data=!4m12!1m6!3m5!1s0x3bd1d69258caec97:0x11cb8da96aa0c026!2sKartik+Niwas!8m2!3d19.1858178!4d77.306507!3m4!1s0x3bd1d69258caec97:0x11cb8da96aa0c026!8m2!3d19.1858178!4d77.306507"
-    target="_blank">
-  </a>
+<div class="contact-us-banner d-flex flex-column align-items-center p-5">
+  <h2 class="contact-us-header p-2">We'd love to hear from you</h2>
+  <div class="contact-us-desc">Whether you have a question about products, pricing or a demo, we are
+    happy to answer all your questions.</div>
+</div>
+
+<div class="office-locations d-flex flex-column align-items-center justify-content-center p-2">
+  <h2 class="office-location-header py-4">Office Locations</h2>
+  <div class="office-location px-4 py-3 border rounded" *ngFor="let contact of contacts">
+    <h5 class="address-line">{{contact.city}}, {{contact.state}}</h5>
+    <div class="address-line">{{contact.building}}, {{contact.area}}</div>
+    <div class="address-line">{{contact.country}} - {{contact.pincode}}</div>
+    <br>
+    <div class="address-line">
+      <span class="pi pi-user"></span>
+      <span class="text-dark"> {{contact.name}}</span>
+    </div>
+    <div class="address-line">
+      <span class="pi pi-mobile"></span>
+      <span class="text-primary"> {{contact.mob}}</span>
+    </div>
+    <a [attr.href]="contact.gmapUrl" target="_blank" class="map-anchor my-2">
+      <div class="address-line-google-map-image" title="Show on map">
+      </div>
+    </a>
+  </div>
 </div>

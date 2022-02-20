@@ -1,5 +1,7 @@
 {
   "cSpell.words": ["Vectro"],
   "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.wordWrap": "on",
+  "java.saveActions.organizeImports": true
 }
