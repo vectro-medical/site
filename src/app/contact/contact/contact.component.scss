@@ -20,6 +20,7 @@
 .contact-us-header {
   color: #4d4d4c;
 }
+
 .contact-us-desc {
   color: #5e5e5e;
 }
@@ -28,10 +29,23 @@
   cursor: pointer;
   display: block;
 }
+
 .address-line-google-map-image {
-  height: 135px;
-  width: 200px;
+  height: 160px;
+  width: 100%;
   background-image: url('../../../assets/showcase/images/maps/istockphoto-1282959893-612x612.jpg');
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
+}
+
+.locate-us-icon {
+  color: #706868;
+  font-size: 49px;
+  position: absolute;
+  left: 39%;
+  top: 27%;
+}
+
+.map-div {
+  position: relative;
 }

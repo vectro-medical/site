@@ -17,11 +17,18 @@
     </div>
     <div class="address-line">
       <span class="pi pi-mobile"></span>
-      <span class="text-primary"> {{contact.mob}}</span>
+      <span class=""> {{contact.mob}}</span>
     </div>
-    <a [attr.href]="contact.gmapUrl" target="_blank" class="map-anchor my-2">
-      <div class="address-line-google-map-image" title="Show on map">
-      </div>
-    </a>
+    <div class="address-line">
+      <span class="pi pi-envelope"></span>
+      <span> {{contact.email}}</span>
+    </div>
+    <div class="map-div">
+      <div class="pi pi-map-marker locate-us-icon"></div>
+      <a [attr.href]="contact.gmapUrl" target="_blank" class="map-anchor my-2">
+        <div class="address-line-google-map-image" title="Show on map">
+        </div>
+      </a>
+    </div>
   </div>
 </div>
