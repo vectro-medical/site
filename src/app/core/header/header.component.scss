@@ -3,6 +3,8 @@
 @import '~bootstrap/scss/variables';
 @import '~bootstrap/scss/mixins';
 
+$logo-color: #00a0e3;
+
 :host {
   display: block;
 }
@@ -17,6 +19,30 @@
   }
 }
 
+.nav-links {
+  font-size: 20px;
+}
+
+.main-link {
+  padding: calc($spacer/10) 0;
+  margin: $spacer;
+}
+
 .main-link.active {
-  color: $primary !important;
+  color: $logo-color !important;
+  border-bottom: 2px solid $logo-color;
+}
+
+.logo {
+  background-image: url('../../../assets/showcase/images/logo.png');
+  height: 58px;
+  width: 108px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.company-title {
+  font-size: 25px;
+  font-weight: 500;
+  color: $logo-color;
 }
