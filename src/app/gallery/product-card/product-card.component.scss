@@ -1,0 +1,9 @@
+@import '../../../scss/app-variables.scss';
+
+:host {
+  display: block;
+}
+
+.product-card {
+  background-color: $app-bg-color;
+}

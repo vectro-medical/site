@@ -2,11 +2,11 @@
 @import '~bootstrap/scss/functions';
 @import '~bootstrap/scss/variables';
 @import '~bootstrap/scss/mixins';
-
-$logo-color: #00a0e3;
+@import '../../../scss/app-variables.scss';
 
 :host {
   display: block;
+  background-color: $app-bg-color;
 }
 
 .box-shadow {
@@ -29,8 +29,8 @@ $logo-color: #00a0e3;
 }
 
 .main-link.active {
-  color: $logo-color !important;
-  border-bottom: 2px solid $logo-color;
+  color: $app-primary-color !important;
+  border-bottom: 2px solid $app-primary-color;
 }
 
 .logo {
@@ -44,5 +44,5 @@ $logo-color: #00a0e3;
 .company-title {
   font-size: 25px;
   font-weight: 500;
-  color: $logo-color;
+  color: $app-primary-color;
 }
