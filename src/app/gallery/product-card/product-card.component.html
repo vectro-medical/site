@@ -1,8 +1,10 @@
-<div class="product-card card m-3" style="width: 18rem;">
-  <img class="card-img-top" [src]="productDetail.imgSrc" [alt]="productDetail.alt">
+<div class="product-card card m-3" style="width: 18rem;" title="Contact us for more details">
+  <div class="card-image-container bg-white">
+    <img class="card-img-top product-image m-auto d-block p-3" [src]="productDetail.imgSrc" [alt]="productDetail.alt">
+  </div>
   <div class="card-body">
-    <h5 class="card-title">{{productDetail.name}}</h5>
+    <h5 class="card-title text-center">{{productDetail.name}}</h5>
     <p class="card-text">{{productDetail.description}}</p>
-    <a href="#" class="btn btn-primary">More</a>
+    <!-- <a href="#" class="btn btn-primary">More</a> -->
   </div>
 </div>

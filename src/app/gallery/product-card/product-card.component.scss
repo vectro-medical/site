@@ -7,3 +7,8 @@
 .product-card {
   background-color: $app-bg-color;
 }
+
+.product-image {
+  width: 200px;
+  box-sizing: content-box;
+}
