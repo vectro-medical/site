@@ -37,7 +37,7 @@
             },
             "dataSource": {
               "type": "api",
-              "endpoint": "/pages/home/home-carousel.json",
+              "endpoint": "pages/home/home-carousel.json",
               "cache": true,
               "cacheDuration": 300000
             }
@@ -96,7 +96,7 @@
             },
             "dataSource": {
               "type": "api",
-              "endpoint": "/pages/about/about-carousel.json",
+              "endpoint": "pages/about/about-carousel.json",
               "cache": true,
               "cacheDuration": 300000
             }
@@ -176,7 +176,7 @@
             },
             "dataSource": {
               "type": "api",
-              "endpoint": "/pages/products/products.json",
+              "endpoint": "pages/products/products.json",
               "cache": true,
               "cacheDuration": 300000
             }
