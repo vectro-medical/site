@@ -1,0 +1,200 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "CMS 8000",
+      "description": "Advanced multi-parameter patient monitor with high-resolution display, continuous vital signs monitoring including ECG, SpO2, NIBP, and temperature tracking.",
+      "image": "pages/products/images/cms_8000.jpg",
+      "imageAlt": "CMS 8000",
+      "inStock": true,
+      "pdfPath": "pages/products/pdf/cms_8000.pdf"
+    },
+    {
+      "id": 2,
+      "name": "CMS6000 3 PARA / 5 PARA",
+      "description": "Compact patient monitoring system offering 3 or 5 parameter configurations for comprehensive vital signs assessment in clinical settings.",
+      "image": "pages/products/images/cms6000_3_para_5_para.jpg",
+      "imageAlt": "CMS6000 3 PARA / 5 PARA",
+      "inStock": true,
+      "pdfPath": "pages/products/pdf/cms6000_3_para_5_para.pdf"
+    },
+    {
+      "id": 3,
+      "name": "KOMED-M3 PRIME",
+      "description": "Premium patient monitoring solution with advanced features for accurate and reliable vital signs tracking in critical care environments.",
+      "image": "pages/products/images/komed-m3_prime.jpg",
+      "imageAlt": "KOMED-M3 PRIME",
+      "inStock": true,
+      "pdfPath": "pages/products/pdf/komed-m3_prime.pdf"
+    },
+    {
+      "id": 4,
+      "name": "KOMED-M4 MP 30",
+      "description": "Professional-grade multi-parameter monitor with 30+ monitoring capabilities designed for intensive care and operating room use.",
+      "image": "pages/products/images/komed-m4_mp_30.jpg",
+      "imageAlt": "KOMED-M4 MP 30",
+      "inStock": true,
+      "pdfPath": "pages/products/pdf/komed-m4_mp_30.pdf"
+    },
+    {
+      "id": 5,
+      "name": "CMS5100",
+      "description": "Portable and lightweight patient monitor ideal for emergency departments, ambulances, and bedside monitoring with essential parameter tracking.",
+      "image": "pages/products/images/cms5100.png",
+      "imageAlt": "CMS5100",
+      "inStock": true,
+      "pdfPath": "pages/products/pdf/cms5100.pdf"
+    },
+    {
+      "id": 6,
+      "name": "CMS800G CTG MACHINE",
+      "description": "Cardiotocography machine for fetal heart rate and uterine contraction monitoring during pregnancy and labor, ensuring maternal and fetal safety.",
+      "image": "pages/products/images/cms800g_ctg_machine.jpg",
+      "imageAlt": "CMS800G CTG MACHINE",
+      "inStock": true,
+      "pdfPath": "pages/products/pdf/cms800g_ctg_machine.pdf"
+    },
+    {
+      "id": 7,
+      "name": "HAWKMED SYRINGE PUMP",
+      "description": "High-precision syringe pump for controlled medication delivery with programmable flow rates and multiple safety alarms for patient protection.",
+      "image": "pages/products/images/hawkmed_syringe_pump.jpg",
+      "imageAlt": "HAWKMED SYRINGE PUMP",
+      "inStock": true,
+      "pdfPath": "pages/products/pdf/hawkmed_syringe_pump.pdf"
+    },
+    {
+      "id": 8,
+      "name": "HAWKMED INFUSION PUMP",
+      "description": "Reliable infusion pump system for accurate IV fluid and medication administration with user-friendly interface and comprehensive safety features.",
+      "image": "pages/products/images/hawkmed_infusion_pump.jpg",
+      "imageAlt": "HAWKMED INFUSION PUMP",
+      "inStock": true,
+      "pdfPath": "pages/products/pdf/hawkmed_infusion_pump.pdf"
+    },
+    {
+      "id": 9,
+      "name": "CMS100G",
+      "description": "Compact vital signs monitor offering essential parameter monitoring in a portable design, perfect for clinics and mobile healthcare services.",
+      "image": "pages/products/images/cms100g.jpg",
+      "imageAlt": "CMS100G",
+      "inStock": true,
+      "pdfPath": "pages/products/pdf/cms100g.pdf"
+    },
+    {
+      "id": 10,
+      "name": "CMS 300G",
+      "description": "Versatile patient monitoring system with clear display and intuitive controls for efficient vital signs assessment in various clinical settings.",
+      "image": "pages/products/images/cms_300g.jpg",
+      "imageAlt": "CMS 300G",
+      "inStock": true,
+      "pdfPath": "pages/products/pdf/cms_300g.pdf"
+    },
+    {
+      "id": 11,
+      "name": "CMS600G 6 CHANNEL",
+      "description": "Professional 6-channel ECG monitor for detailed cardiac rhythm analysis with advanced filtering and arrhythmia detection capabilities.",
+      "image": "pages/products/images/cms600g_6_channel.jpg",
+      "imageAlt": "CMS600G 6 CHANNEL",
+      "inStock": true,
+      "pdfPath": "pages/products/pdf/cms600g_6_channel.pdf"
+    },
+    {
+      "id": 12,
+      "name": "12 CHANNEL ECG MACHINE",
+      "description": "Comprehensive 12-lead ECG machine with thermal printer for accurate cardiac diagnostics, interpretation algorithms, and digital data storage.",
+      "image": "pages/products/images/12_channel_ecg_machine.jpg",
+      "imageAlt": "12 CHANNEL ECG MACHINE",
+      "inStock": true,
+      "pdfPath": "pages/products/pdf/12_channel_ecg_machine.pdf"
+    },
+    {
+      "id": 13,
+      "name": "BPAP25 Series -- RESmart GII",
+      "description": "Bi-level positive airway pressure device for sleep apnea therapy with advanced algorithms providing comfortable and effective breathing support.",
+      "image": "pages/products/images/bpap25_series_--_resmart_gii.jpg",
+      "imageAlt": "BPAP25 Series -- RESmart GII",
+      "inStock": true,
+      "pdfPath": "pages/products/pdf/bpap25_series_--_resmart_gii.pdf"
+    },
+    {
+      "id": 14,
+      "name": "RMS-BIPAP-T25",
+      "description": "Advanced BiPAP therapy system with timed breathing support for patients requiring respiratory assistance and ventilation management.",
+      "image": "pages/products/images/rms-bipap-t25.jpg",
+      "imageAlt": "RMS-BIPAP-T25",
+      "inStock": true,
+      "pdfPath": "pages/products/pdf/rms-bipap-t25.pdf"
+    },
+    {
+      "id": 15,
+      "name": "Auto CPAP Machine",
+      "description": "Automatic continuous positive airway pressure machine with self-adjusting pressure levels for optimal sleep apnea treatment and patient comfort.",
+      "image": "pages/products/images/auto_cpap_machine.jpg",
+      "imageAlt": "Auto CPAP Machine",
+      "inStock": true,
+      "pdfPath": "pages/products/pdf/auto_cpap_machine.pdf"
+    },
+    {
+      "id": 16,
+      "name": "OXYGEN CONCENTRATOR",
+      "description": "Medical-grade oxygen concentrator delivering continuous oxygen therapy with adjustable flow rates for respiratory support at home or clinical use.",
+      "image": "pages/products/images/oxygen_concentrator.jpg",
+      "imageAlt": "OXYGEN CONCENTRATOR",
+      "inStock": true,
+      "pdfPath": "pages/products/pdf/oxygen_concentrator.pdf"
+    },
+    {
+      "id": 17,
+      "name": "PULSE OXIMETER",
+      "description": "Fingertip pulse oximeter for quick and accurate measurement of blood oxygen saturation and pulse rate with LED display and portable design.",
+      "image": "pages/products/images/pulse_oximeter.jpg",
+      "imageAlt": "PULSE OXIMETER",
+      "inStock": true,
+      "pdfPath": "pages/products/pdf/pulse_oximeter.pdf"
+    },
+    {
+      "id": 18,
+      "name": "AIR MATTRESS",
+      "description": "Medical air mattress with alternating pressure system for pressure ulcer prevention and patient comfort during extended bed rest.",
+      "image": "pages/products/images/air_mattress.jpg",
+      "imageAlt": "AIR MATTRESS",
+      "inStock": true,
+      "pdfPath": "pages/products/pdf/air_mattress.pdf"
+    },
+    {
+      "id": 19,
+      "name": "Contec Nebulizer",
+      "description": "Efficient nebulizer system for aerosol medication delivery treating respiratory conditions with quiet operation and fast atomization.",
+      "image": "pages/products/images/contec_nebulizer.jpg",
+      "imageAlt": "Contec Nebulizer",
+      "inStock": true,
+      "pdfPath": "pages/products/pdf/contec_nebulizer.pdf"
+    },
+    {
+      "id": 20,
+      "name": "Fetal Doppler",
+      "description": "Handheld fetal doppler for monitoring fetal heart rate during pregnancy with clear audio output and LCD display for expectant mothers.",
+      "image": "pages/products/images/fetal_doppler.jpg",
+      "imageAlt": "Fetal Doppler",
+      "inStock": true,
+      "pdfPath": "pages/products/pdf/fetal_doppler.pdf"
+    },
+    {
+      "id": 21,
+      "name": "M-Care Portable Suction",
+      "description": "Portable medical suction device for emergency and routine airway clearance with powerful vacuum and battery operation for mobility.",
+      "image": "pages/products/images/m-care_portable_suction.jpg",
+      "imageAlt": "M-Care Portable Suction",
+      "inStock": true
+    },
+    {
+      "id": 22,
+      "name": "M-Care Double Jar Suction",
+      "description": "Professional double jar suction unit providing high-performance aspiration for surgical and medical procedures with dual collection containers.",
+      "image": "pages/products/images/m-care_double_jar_suction.jpg",
+      "imageAlt": "M-Care Double Jar Suction",
+      "inStock": true
+    }
+  ]
+}

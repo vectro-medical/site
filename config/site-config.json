@@ -1,0 +1,202 @@
+{
+  "siteConfig": {
+    "header": {
+      "variant": "header-v1",
+      "config": {
+        "logoRef": "header.logo",
+        "linksRef": "header.navigation",
+        "sticky": true,
+        "mobileBreakpoint": 768,
+        "mobileVariant": "hamburger"
+      }
+    },
+    "pages": [
+      {
+        "route": "/",
+        "title": "Home",
+        "sections": [
+          {
+            "id": "home-welcome",
+            "type": "text-block",
+            "config": {
+              "alignment": "center",
+              "variant": "highlighted"
+            },
+            "contentRef": "pages.home.welcome"
+          },
+          {
+            "id": "home-carousel",
+            "type": "carousel",
+            "config": {
+              "numVisible": 1,
+              "numScroll": 1,
+              "circular": true,
+              "autoplayInterval": 5000,
+              "showIndicators": true,
+              "showNavigators": true
+            },
+            "dataSource": {
+              "type": "api",
+              "endpoint": "/pages/home/home-carousel.json",
+              "cache": true,
+              "cacheDuration": 300000
+            }
+          },
+          {
+            "id": "home-expertise",
+            "type": "card-grid",
+            "config": {
+              "columns": 3,
+              "gap": "2rem"
+            },
+            "contentRef": "pages.home.expertise"
+          },
+          {
+            "id": "home-commitment",
+            "type": "text-block",
+            "config": {
+              "alignment": "center"
+            },
+            "contentRef": "pages.home.commitment"
+          },
+          {
+            "id": "home-cta",
+            "type": "card-grid",
+            "config": {
+              "columns": 2,
+              "gap": "2rem"
+            },
+            "contentRef": "pages.home.cta"
+          }
+        ]
+      },
+      {
+        "route": "/about",
+        "title": "About Us",
+        "sections": [
+          {
+            "id": "about-intro",
+            "type": "text-block",
+            "config": {
+              "alignment": "center",
+              "variant": "highlighted"
+            },
+            "contentRef": "pages.about.intro"
+          },
+          {
+            "id": "about-carousel",
+            "type": "carousel",
+            "config": {
+              "numVisible": 1,
+              "numScroll": 1,
+              "circular": true,
+              "autoplayInterval": 4000,
+              "showIndicators": true,
+              "showNavigators": true
+            },
+            "dataSource": {
+              "type": "api",
+              "endpoint": "/pages/about/about-carousel.json",
+              "cache": true,
+              "cacheDuration": 300000
+            }
+          },
+          {
+            "id": "about-content",
+            "type": "text-block",
+            "config": {
+              "alignment": "left"
+            },
+            "contentRef": "pages.about.content"
+          },
+          {
+            "id": "about-image",
+            "type": "image-block",
+            "config": {
+              "src": "https://via.placeholder.com/800x400",
+              "alignment": "center"
+            },
+            "contentRef": "pages.about.image"
+          }
+        ]
+      },
+      {
+        "route": "/contact",
+        "title": "Contact",
+        "sections": [
+          {
+            "id": "contact-intro",
+            "type": "text-block",
+            "config": {
+              "alignment": "center",
+              "variant": "highlighted"
+            },
+            "contentRef": "pages.contact.intro"
+          },
+          {
+            "id": "office-locations-section",
+            "type": "office-locations",
+            "config": {
+              "heading": "Our Offices",
+              "offices": [
+                {
+                  "city": "Nanded",
+                  "state": "Maharashtra",
+                  "address": "Kartik Niwas, Sonai Nagar",
+                  "country": "India",
+                  "pincode": "431605",
+                  "contactPerson": "Kapil Redishettywar",
+                  "phoneNumber": "+91 9975634785",
+                  "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.5!2d77.3069246!3d19.186354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd1d69258caec97:0x11cb8da96aa0c026!2sKartik+Niwas!5e0!3m2!1sen!2sin!4v1739577600000!5m2!1sen!2sin"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "route": "/products",
+        "title": "Products",
+        "sections": [
+          {
+            "id": "products-intro",
+            "type": "text-block",
+            "config": {
+              "alignment": "center",
+              "variant": "highlighted"
+            },
+            "contentRef": "pages.products.intro"
+          },
+          {
+            "id": "products-list",
+            "type": "product-list",
+            "config": {
+              "rowsPerPage": 12,
+              "showSearch": true
+            },
+            "dataSource": {
+              "type": "api",
+              "endpoint": "/pages/products/products.json",
+              "cache": true,
+              "cacheDuration": 300000
+            }
+          }
+        ]
+      }
+    ],
+    "footer": {
+      "variant": "footer-v1",
+      "config": {
+        "columnsRef": "footer.columns",
+        "socialLinksRef": "footer.socialLinks",
+        "copyrightRef": "footer.copyright"
+      }
+    }
+  },
+  "apiConfig": {
+    "baseUrl": "",
+    "timeout": 30000,
+    "retryAttempts": 0
+  },
+  "contentRef": "content.json"
+}

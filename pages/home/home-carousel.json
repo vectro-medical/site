@@ -1,0 +1,54 @@
+{
+  "slides": [
+    {
+      "image": "https://placehold.co/1200x500/0066cc/ffffff?text=Trusted+Medical+Equipment+Partner",
+      "alt": "Vectro Medical Systems - Trusted Partner",
+      "title": "25+ Years of Medical Equipment Excellence",
+      "subtitle": "Serving 2,500+ healthcare facilities worldwide with reliable, certified medical equipment",
+      "cta": {
+        "label": "Discover Our Story",
+        "route": "/about"
+      }
+    },
+    {
+      "image": "https://placehold.co/1200x500/00a651/ffffff?text=ISO+Certified+Equipment",
+      "alt": "ISO 13485 Certified Medical Equipment",
+      "title": "Quality You Can Trust",
+      "subtitle": "Every product meets FDA, CE, and ISO 13485 standards with rigorous quality assurance",
+      "cta": {
+        "label": "View Products",
+        "route": "/products"
+      }
+    },
+    {
+      "image": "https://placehold.co/1200x500/d32f2f/ffffff?text=24-7+Technical+Support",
+      "alt": "24/7 Medical Equipment Support",
+      "title": "Always Available When You Need Us",
+      "subtitle": "Round-the-clock technical support, preventive maintenance, and rapid equipment deployment",
+      "cta": {
+        "label": "Contact Support",
+        "route": "/contact"
+      }
+    },
+    {
+      "image": "https://placehold.co/1200x500/f57c00/ffffff?text=Global+Distribution+Network",
+      "alt": "Global Medical Equipment Distribution",
+      "title": "Strategic Global Partnerships",
+      "subtitle": "Partnering with 50+ leading manufacturers to deliver equipment across multiple continents",
+      "cta": {
+        "label": "Our Expertise",
+        "route": "/about"
+      }
+    },
+    {
+      "image": "https://placehold.co/1200x500/7b1fa2/ffffff?text=Comprehensive+Medical+Solutions",
+      "alt": "Complete Medical Equipment Solutions",
+      "title": "From Diagnostics to Surgical Systems",
+      "subtitle": "Complete equipment solutions for every clinical specialty and hospital department",
+      "cta": {
+        "label": "Browse Catalog",
+        "route": "/products"
+      }
+    }
+  ]
+}

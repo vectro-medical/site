@@ -1,0 +1,22 @@
+{
+  "slides": [
+    {
+      "image": "https://placehold.co/1200x500/34495e/ffffff?text=Our+Mission",
+      "alt": "Our Mission",
+      "title": "Our Mission",
+      "subtitle": "Empowering healthcare providers with innovative solutions"
+    },
+    {
+      "image": "https://placehold.co/1200x500/16a085/ffffff?text=Our+Vision",
+      "alt": "Our Vision",
+      "title": "Our Vision",
+      "subtitle": "A world where quality healthcare is accessible to all"
+    },
+    {
+      "image": "https://placehold.co/1200x500/2980b9/ffffff?text=Our+Values",
+      "alt": "Our Values",
+      "title": "Our Values",
+      "subtitle": "Excellence, integrity, and compassion in everything we do"
+    }
+  ]
+}
