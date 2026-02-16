@@ -1,7 +1,7 @@
 {
   "slides": [
     {
-      "image": "https://placehold.co/1200x500/00a651/ffffff?text=ISO+Certified+Equipment",
+      "image": "pages/home/carousel/1.png",
       "alt": "ISO 13485 Certified Medical Equipment",
       "title": "Quality You Can Trust",
       "subtitle": "Every product meets FDA, CE, and ISO 13485 standards with rigorous quality assurance",
@@ -11,23 +11,23 @@
       }
     },
     {
-      "image": "https://placehold.co/1200x500/d32f2f/ffffff?text=24-7+Technical+Support",
-      "alt": "24/7 Medical Equipment Support",
-      "title": "Always Available When You Need Us",
-      "subtitle": "Round-the-clock technical support, preventive maintenance, and rapid equipment deployment",
-      "cta": {
-        "label": "Contact Support",
-        "route": "/contact"
-      }
-    },
-    {
-      "image": "https://placehold.co/1200x500/7b1fa2/ffffff?text=Comprehensive+Medical+Solutions",
+      "image": "pages/home/carousel/2.png",
       "alt": "Complete Medical Equipment Solutions",
       "title": "From Diagnostics to Surgical Systems",
       "subtitle": "Complete equipment solutions for every clinical specialty and hospital department",
       "cta": {
         "label": "Browse Catalog",
         "route": "/products"
+      }
+    },
+    {
+      "image": "pages/home/carousel/3.png",
+      "alt": "24/7 Medical Equipment Support",
+      "title": "Always Available When You Need Us",
+      "subtitle": "Round-the-clock technical support, preventive maintenance, and rapid equipment deployment",
+      "cta": {
+        "label": "Contact Support",
+        "route": "/contact"
       }
     }
   ]
