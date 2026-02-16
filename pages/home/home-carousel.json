@@ -1,16 +1,6 @@
 {
   "slides": [
     {
-      "image": "https://placehold.co/1200x500/0066cc/ffffff?text=Trusted+Medical+Equipment+Partner",
-      "alt": "Vectro Medical Systems - Trusted Partner",
-      "title": "25+ Years of Medical Equipment Excellence",
-      "subtitle": "Serving 2,500+ healthcare facilities worldwide with reliable, certified medical equipment",
-      "cta": {
-        "label": "Discover Our Story",
-        "route": "/about"
-      }
-    },
-    {
       "image": "https://placehold.co/1200x500/00a651/ffffff?text=ISO+Certified+Equipment",
       "alt": "ISO 13485 Certified Medical Equipment",
       "title": "Quality You Can Trust",
@@ -28,16 +18,6 @@
       "cta": {
         "label": "Contact Support",
         "route": "/contact"
-      }
-    },
-    {
-      "image": "https://placehold.co/1200x500/f57c00/ffffff?text=Global+Distribution+Network",
-      "alt": "Global Medical Equipment Distribution",
-      "title": "Strategic Global Partnerships",
-      "subtitle": "Partnering with 50+ leading manufacturers to deliver equipment across multiple continents",
-      "cta": {
-        "label": "Our Expertise",
-        "route": "/about"
       }
     },
     {

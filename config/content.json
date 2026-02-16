@@ -27,11 +27,6 @@
           "icon": "pi-shopping-bag"
         },
         {
-          "label": "About",
-          "route": "/about",
-          "icon": "pi-info-circle"
-        },
-        {
           "label": "Contact",
           "route": "/contact",
           "icon": "pi-envelope"
@@ -51,10 +46,6 @@
             {
               "label": "Products",
               "route": "/products"
-            },
-            {
-              "label": "About Us",
-              "route": "/about"
             },
             {
               "label": "Contact",
@@ -80,154 +71,103 @@
       "home": {
         "title": "Home",
         "welcome": {
-          "title": "Empowering Healthcare Excellence Since 1998",
-          "content": "Vectro Medical Systems delivers world-class medical equipment and supplies to healthcare facilities worldwide. With over 25 years of industry expertise, we partner with leading manufacturers to provide innovative solutions that healthcare professionals trust—because when equipment reliability matters most, excellence is not optional."
+          "title": "Quality Medical Equipment & Services",
+          "content": "Trusted partner for medical equipment sales, service, and rentals. Offering Ventilators, BiPAP/CPAP, Oxygen Concentrators, Patient Monitors, Defibrillators, Infusion Pumps, ECG & X-Ray Machines, and accessories."
         },
-        "expertise": {
+        "quickContact": {
+          "heading": "Get in Touch",
+          "message": "Contact us for medical equipment sales, service, and rentals",
+          "contacts": [
+            {
+              "label": "9975634785",
+              "link": "tel:+919975634785",
+              "icon": "pi-phone",
+              "ariaLabel": "Call us at 9975634785 or 9975623785"
+            },
+            {
+              "label": "vectromedicalsystem@gmail.com",
+              "link": "mailto:vectromedicalsystem@gmail.com",
+              "icon": "pi-envelope",
+              "ariaLabel": "Email us at vectromedicalsystem@gmail.com"
+            }
+          ]
+        },
+        "services": {
+          "title": "Our Services",
           "cards": [
             {
-              "title": "Advanced Diagnostic Imaging",
-              "content": "From ultrasound to digital radiography, we supply cutting-edge diagnostic equipment that delivers precise results, enabling faster and more accurate patient assessments",
-              "icon": "pi-desktop"
+              "title": "Ventilators",
+              "icon": "pi-heart"
             },
             {
-              "title": "Surgical Systems & Instruments",
-              "content": "ISO 13485 certified surgical equipment and instrumentation that meets the most stringent safety and sterility standards for operating room excellence",
-              "icon": "pi-shield"
+              "title": "BiPAP & CPAP Machines",
+              "icon": "pi-replay"
             },
             {
-              "title": "Patient Monitoring Technology",
-              "content": "Advanced vital signs monitors, telemetry systems, and ICU equipment providing real-time data for critical care decision-making",
+              "title": "Syringe / Infusion Pumps",
+              "icon": "pi-sync"
+            },
+            {
+              "title": "Multi-Parameter Monitors",
               "icon": "pi-chart-line"
             },
             {
-              "title": "Laboratory & Pathology",
-              "content": "Complete laboratory automation systems, analyzers, and diagnostic instruments for clinical chemistry, hematology, and molecular diagnostics",
+              "title": "Oxygen Concentrators",
+              "icon": "pi-circle"
+            },
+            {
+              "title": "Defibrillators",
+              "icon": "pi-bolt"
+            },
+            {
+              "title": "Anaesthesia Machines",
               "icon": "pi-box"
             },
             {
-              "title": "Medical Consumables",
-              "content": "Reliable supply chain management for surgical consumables, personal protective equipment, and medical disposables ensuring your facility never runs short",
-              "icon": "pi-briefcase"
+              "title": "Automatic ECG Machines",
+              "icon": "pi-wave-pulse"
             },
             {
-              "title": "Lifecycle Support Services",
-              "content": "Comprehensive 24/7 technical support, preventive maintenance programs, biomedical calibration, and equipment training to maximize your investment",
-              "icon": "pi-phone"
+              "title": "X-Ray Machines",
+              "icon": "pi-camera"
+            },
+            {
+              "title": "Nebulisers",
+              "icon": "pi-cloud"
+            },
+            {
+              "title": "SPO2 Probes (All Types)",
+              "icon": "pi-check-circle"
+            },
+            {
+              "title": "ECG Graph Papers & Accessories",
+              "icon": "pi-file"
             }
           ]
         },
-        "commitment": {
-          "title": "Why Healthcare Providers Choose Vectro",
-          "content": "In healthcare, equipment failure is not an option. That's why over 2,500 healthcare facilities across multiple continents trust Vectro Medical Systems as their strategic partner. We go beyond simply supplying equipment—we provide end-to-end solutions including regulatory compliance support, staff training, preventive maintenance, and rapid response technical services. Our rigorous vendor qualification process ensures every product meets FDA, CE, and ISO standards. With established partnerships with over 50 leading global manufacturers and strategic warehouse locations, we guarantee equipment availability and rapid deployment when you need it most. Your mission is patient care—our mission is ensuring you have the reliable tools to deliver it."
-        },
-        "cta": {
+        "rentals": {
+          "title": "Equipment Rentals Available",
           "cards": [
             {
-              "title": "Explore Our Product Catalog",
-              "content": "Browse our extensive range of medical equipment across all major clinical specialties and hospital departments",
-              "icon": "pi-shopping-bag",
-              "link": "/products"
+              "title": "BiPAP Machines"
             },
             {
-              "title": "Request a Consultation",
-              "content": "Connect with our medical equipment specialists to discuss your facility's specific needs and equipment requirements",
-              "icon": "pi-envelope",
-              "link": "/contact"
+              "title": "CPAP Machines"
+            },
+            {
+              "title": "Oxygen Concentrators"
+            },
+            {
+              "title": "Pulse Oximeters"
             }
           ]
-        }
-      },
-      "about": {
-        "title": "About Us",
-        "intro": {
-          "title": "Advancing Healthcare Through Innovation",
-          "content": "Trusted partner in medical excellence since 1998. Delivering world-class medical equipment and supplies that healthcare facilities rely on every day."
-        },
-        "hero": {
-          "title": "Advancing Healthcare Through Innovation",
-          "subtitle": "Trusted partner in medical excellence since 1998"
-        },
-        "mission": {
-          "title": "Our Mission",
-          "content": "At Vectro Medical Systems, our mission is to empower healthcare providers with cutting-edge medical equipment and supplies that save lives and improve patient outcomes. We believe that access to reliable, high-quality medical technology should never be a barrier to exceptional healthcare delivery."
-        },
-        "story": {
-          "title": "Our Story",
-          "content": "Founded in 1998, Vectro Medical Systems emerged from a simple yet powerful vision: to bridge the gap between innovative medical technology and healthcare providers worldwide. What started as a small regional distributor has evolved into a trusted global partner serving hospitals, clinics, and healthcare facilities across multiple continents. Our growth has been driven by an unwavering commitment to quality, integrity, and the belief that every patient deserves access to the best medical care possible."
-        },
-        "values": {
-          "title": "Our Core Values",
-          "cards": [
-            {
-              "title": "Quality First",
-              "content": "Every product we supply undergoes rigorous testing and quality assurance to meet or exceed international healthcare standards including ISO 13485 and FDA regulations.",
-              "icon": "pi-verified"
-            },
-            {
-              "title": "Innovation Driven",
-              "content": "We partner with leading manufacturers worldwide to bring the latest medical technology innovations to healthcare providers, ensuring they stay at the forefront of patient care.",
-              "icon": "pi-lightbulb"
-            },
-            {
-              "title": "Customer Focused",
-              "content": "Our dedicated team of medical equipment specialists works closely with healthcare professionals to understand their unique needs and provide tailored solutions.",
-              "icon": "pi-users"
-            },
-            {
-              "title": "Reliability",
-              "content": "With 24/7 technical support, comprehensive maintenance programs, and rapid equipment deployment, we ensure healthcare operations never face downtime.",
-              "icon": "pi-shield"
-            }
-          ]
-        },
-        "expertise": {
-          "title": "Industry Expertise",
-          "content": "With over 25 years of experience in the medical equipment industry, our team brings unparalleled expertise in diagnostics, surgical equipment, patient monitoring systems, and laboratory solutions. We understand the critical nature of healthcare operations and the importance of equipment reliability, regulatory compliance, and continuous innovation. Our partnerships with over 50 leading manufacturers and our global distribution network ensure that healthcare providers have access to the right equipment exactly when they need it."
-        },
-        "commitment": {
-          "title": "Our Commitment to Healthcare Excellence",
-          "content": "We are committed to supporting healthcare professionals in their mission to provide exceptional patient care. This commitment extends beyond simply supplying equipment—we provide comprehensive training programs, ongoing technical support, preventive maintenance services, and consultative guidance to help healthcare facilities optimize their equipment investments. Our quality assurance processes ensure every device meets stringent safety and performance standards before reaching your facility."
-        },
-        "stats": {
-          "title": "Impact by Numbers",
-          "items": [
-            {
-              "value": "25+",
-              "label": "Years of Excellence",
-              "icon": "pi-calendar"
-            },
-            {
-              "value": "2,500+",
-              "label": "Healthcare Facilities Served",
-              "icon": "pi-building"
-            },
-            {
-              "value": "50+",
-              "label": "Manufacturing Partners",
-              "icon": "pi-globe"
-            },
-            {
-              "value": "24/7",
-              "label": "Technical Support",
-              "icon": "pi-phone"
-            }
-          ]
-        },
-        "cta": {
-          "title": "Partner With Us",
-          "content": "Join thousands of healthcare providers who trust Vectro Medical Systems for their medical equipment needs. Let's work together to elevate the standard of patient care.",
-          "button": {
-            "text": "Get in Touch",
-            "link": "/contact"
-          }
         }
       },
       "contact": {
         "title": "Contact",
         "intro": {
           "title": "Get in Touch With Our Team",
-          "content": "Whether you have questions about our products, need technical support, or want to discuss equipment solutions for your facility, our medical equipment specialists are here to help."
+          "content": "For product questions, support, or equipment solutions, our specialists are here to help."
         },
         "info": {
           "heading": "We'd love to hear from you",
@@ -260,7 +200,7 @@
         "title": "Products",
         "intro": {
           "title": "Medical Equipment & Supplies",
-          "content": "Browse our comprehensive catalog of high-quality medical products. From advanced diagnostics to surgical systems, find the right equipment for your healthcare facility."
+          "content": "Browse our catalog of medical products. From diagnostics to surgical systems, find the right equipment for your facility."
         },
         "hero": {
           "title": "Medical Equipment & Supplies",
