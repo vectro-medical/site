@@ -71,12 +71,12 @@
       "home": {
         "title": "Home",
         "welcome": {
-          "title": "Quality Medical Equipment & Services",
-          "content": "Trusted partner for medical equipment sales, service, and rentals. Offering Ventilators, BiPAP/CPAP, Oxygen Concentrators, Patient Monitors, Defibrillators, Infusion Pumps, ECG & X-Ray Machines, and accessories."
+          "title": "Quality Hospital Equipment, Sales & Services",
+          "content": "Trusted Partner for Hospital Equipment sales, service, and rentals. Offering Ventilators, BiPAP & CPAP, Oxygen Concentrators, Patient Monitors, Defibrillators, Infusion Pumps, ECG & X-Ray Machines, and accessories."
         },
         "quickContact": {
           "heading": "Get in Touch",
-          "message": "Contact us for medical equipment sales, service, and rentals",
+          "message": "Contact us for Hospital Equipment sales, service, and rentals",
           "contacts": [
             {
               "label": "9975634785",
@@ -124,7 +124,7 @@
               "icon": "pi-box"
             },
             {
-              "title": "Automatic ECG Machines",
+              "title": "Automated ECG Machines",
               "icon": "pi-wave-pulse"
             },
             {
@@ -187,7 +187,7 @@
             "email": "your.email@example.com",
             "phone": "+1 (555) 123-4567",
             "subject": "What is this regarding?",
-            "message": "Tell us more about your inquiry..."
+            "message": "Tell us more about your inquiry."
           },
           "submitButtonText": "Send Message",
           "successMessage": "Thank you! Your message has been sent successfully. We'll get back to you soon."
@@ -199,12 +199,8 @@
       "products": {
         "title": "Products",
         "intro": {
-          "title": "Medical Equipment & Supplies",
-          "content": "Browse our catalog of medical products. From diagnostics to surgical systems, find the right equipment for your facility."
-        },
-        "hero": {
-          "title": "Medical Equipment & Supplies",
-          "subtitle": "Browse our comprehensive catalog of high-quality medical products"
+          "title": "Hospital Equipment & Supplies",
+          "content": "Browse our catalog of Hospital Equipment. From diagnostics to surgical systems, find the right equipment for your facility."
         }
       }
     }
